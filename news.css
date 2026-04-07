@@ -1,0 +1,35 @@
+.article{
+    border: 2px solid skyblue;
+    border-radius: 12px;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    padding: 20px;
+
+
+}
+
+.article_image{
+    border: 2px solid black;
+  
+    margin-left: 5px;
+    width: 30%;
+    float: right;
+}
+
+.heading{
+    color: #289599;
+}
+
+.sub_heading{
+
+    color: #999999;
+}
+
+.article_text{
+    font-size: 18px;
+    border: 2px solid red;
+    padding: 5px;
+    color: #888;
+    text-align: justify;
+}

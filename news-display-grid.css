@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+    background-color: #fbecec;
+}
+
+.header{
+ 
+    padding: 1.5rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    background-color: #440047;
+    border-bottom: 0.5rem solid #91d18b;
+    color: #fbecec;
+    
+    
+
+}
+.header-element{
+    font-family: serif;
+    
+    
+}
+.body{
+
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+    
+}
+.category-column{
+    margin: 1rem;
+   
+
+    
+    
+
+}
+.category-heading{
+    padding: 0.5rem;
+      font-size: 2rem;
+       color: #e11d74;
+}
+
+.category-item-box{
+
+    
+    border: 2px solid #e11d74;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+    
+}
+
+.category-item{
+    
+    margin: 0.5rem;
+    margin-left: 0.7rem;
+    color: #440047;
+   
+    
+}
+
+.category-item:hover{
+    
+
+    color: #e11d74;
+    cursor: pointer;
+   
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #440047;
+}
+
+.link:hover{
+    color: #e11d74;
+    cursor: pointer;
+
+}
+
+/*headline column begin*/
+
+
+
+.headline-column{
+    margin: 1rem;
+   
+    
+}
+
+.headline-head{
+   
+    padding: 0.5rem;
+    color: #e11d74;
+    font-size: 2rem;
+
+}
+
+.headline-item-box{
+   
+    border: 2px solid #e11d74;
+     border-radius: 10px;
+    font-size: 1.2rem;
+
+}
+
+.headline-item{
+    margin: 0.7rem;
+    font-family: sans-serif;
+    color: #440047;
+    margin-top: 0.9rem;
+
+}
+
+.headline-item:hover{
+   
+   
+    color: #e11d74;
+    cursor: pointer;
+   
+
+}
+
+
+
+/*weather column start*/
+
+.weather-column{
+
+    margin: 1rem;
+     
+    
+}
+
+.weather-heading{
+     padding: 0.5rem;
+    color: #e11d74;
+    font-size: 2rem;
+}
+
+.weather-item-box{
+    border: 2px solid #e11d74;
+     border-radius: 10px;
+   
+}
+
+.weather-item{
+    text-align: center;
+    color: #91d188;
+    font-size: 6rem;
+
+}
+
+
+
+/*footer section start*/
+.footer-column{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #440047;
+    
+}
+
+.footer-item{
+    
+
+
+   
+    color: #fbecec;
+    font-size: 1.2rem;
+    margin: 1.1rem;
+}
+
+
+.footer-item-mail{
+    color: #fbecec;
+    text-decoration: none;
+}
+
+
+
+.footer-item-mail:hover{
+     color: #e11d74;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+

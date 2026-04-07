@@ -1,0 +1,136 @@
+body{
+    background-color: #fbecec;
+    margin: 0px;
+}
+
+
+
+.header{
+    background-color: #440047;
+    border-bottom: 0.5rem solid #91d19b;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+
+}
+
+.logo{
+    color: #fbecec;
+    padding: 1.5rem;
+    margin: 0px;
+}
+
+.nav-link{
+    padding: 2rem;
+    font-weight: bold;
+    color: #fbecec;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #e11d74;
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 3rem;
+    padding: 1rem;
+}
+
+.signup-container{
+    width: 36rem;
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin: auto;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.heading{
+    color: #e11d74;
+    margin-top: 0rem;
+    
+}
+
+label{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem ;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #440047;
+
+}
+
+.label-radio{
+    display: inline;
+}
+
+.form-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+input[type="text"],input[type="password"],select,textarea{
+    width: 100%;
+    font-size: 0.85rem;
+    border: none;
+    border-bottom: 0.2rem solid #91d188;
+    background-color: #fbecec;
+    outline: none;
+    color: #e11d74;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,select:focus,textarea:focus{
+    border-bottom: 0.2rem solid #e11d74;
+
+}
+
+.submit-button{
+    padding: 2rem;
+}
+
+.submit{
+    background-color: #e11d74;
+    padding: 1rem;
+    color: #fbecec;
+    font-weight: bold;
+    border: 0.1rem solid #fbecec;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1rem;
+   
+  
+}
+
+.submit:hover{
+    background-color: #fbecec;
+    color: #e11d74;
+}
+
+.footer{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+   
+    background-color: #440047;
+}
+
+.footer-element{
+    margin: 2rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.footer-element:hover{
+    color: #e11d74;
+    cursor: pointer;
+}
